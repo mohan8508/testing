@@ -25,6 +25,13 @@ export default class Home extends Component {
     }
     componentWillReceiveProps(nextProps) {
         const { value } = this.dropdownAttrs
+console.log('a;a;a;a')console.log('a;a;a;a')
+console.log('a;a;a;a')console.log('a;a;a;a')
+console.log('a;a;a;a')console.log('a;a;a;a')
+
+
+console.log('a;a;a;a')
+
         if (
             Boolean(nextProps.value) &&
             nextProps.value !== value &&
