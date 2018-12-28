@@ -25,12 +25,9 @@ export default class Home extends Component {
     }
     componentWillReceiveProps(nextProps) {
         const { value } = this.dropdownAttrsnsnsssbsbsbsb
-        cosjnsk
-        sksksks sjsjssj
-        ssjss kssjkssj
-        shsshss sjsjsjsjsjssjsjsjs
-        sjsjsjsjnsnssnsnsnj
-        if (
+      ssss
+        if (sdfergte
+            dqwdqwdwq
             Boolean(nextProps.value) &&
             nextProps.value !== value &&
             Boolean(this.refs.select)
