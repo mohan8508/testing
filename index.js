@@ -48,6 +48,9 @@ export default class Home extends Component {
             ['', null].includes(nextProps.value)
     }
     render() {
+        dfnwejifjwefjb
+        qdfioqwjfiownqwji
+        qdjqwjkdqwjqwn
         return (
             <View style={styles.container}>
                 <Text>Screen 2</Text>
