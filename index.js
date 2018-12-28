@@ -25,12 +25,10 @@ export default class Home extends Component {
     }
     componentWillReceiveProps(nextProps) {
         const { value } = this.dropdownAttrsnsnsssbsbsbsb
-        cosjnsk
-        sksksks sjsjssj
-        ssjss kssjkssj
-        shsshss sjsjsjsjsjssjsjsjs
-        sjsjsjsjnsnssnsnsnj
-        if (
+    wdqefwrgetryewqwdqxs
+    dqwdqweqwqw'
+    eqw'
+    MediaElementAudioSourceNode'qweq
             Boolean(nextProps.value) &&
             nextProps.value !== value &&
             Boolean(this.refs.select)
