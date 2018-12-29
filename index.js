@@ -1,78 +1,63 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
-import React, { Component } from 'react';
-import { Platform, StyleSheet, Text, View, Button } from 'react-native';
-import { Navigation } from "react-native-navigation";
-
-export default class Home extends Component {
-    static get options() {
-        return {
-            topBar: {
-                title: {
-                    text: 'Screen 2'
-                },
-            }
-        };
-    }
-    constructor(props) {
-        super(props);
-    }
-    componentWillReceiveProps(nextProps) {
-       console.log('jkkkakakakakak')
-       console.log('jkkkakakakakak')
-       console.log('jkkkakakakakak')
-       console.log('jkkkakakakakak')
-       console.log('jkkkakakakakak')
-       console.log('jkkkakakakakak')
-        if (sdfergte
-            dqwdqwdwq
-            Boolean(nextProps.value) &&
-            nextProps.value !== value &&
-            Boolean(this.refs.select)
-        ) {
-            this.refs.select.value = nextProps.value
-        }
-        if (!['Select an option', ''].includes(value)) {
-            this.dropdownAttrs.extraClass = ''
-        }
-        this.dropdownAttrs.backgroundMissingValue =
-            this.props.backgroundMissingValue &&
-            ['', null].includes(nextProps.value)
-    }
-    render() {
-        return (
-            <View style={styles.container}>
-                <Text>Screen 2</Text>
-                <Button
-                    onPress={() => Navigation.pop(this.props.componentId)}
-                    title="Go Back"
-                />
-            </View>
-        );
-    }
-}
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#F5FCFF',
-    },
-    welcome: {
-        fontSize: 20,
-        textAlign: 'center',
-        margin: 10,
-    },
-    instructions: {
-        textAlign: 'center',
-        color: '#333333',
-        marginBottom: 5,
-    },
-});
+//General Base
+@import "base/variables",
+        "base/mixins/general_mixins",
+        "base/mixins/animations",
+        "base/mixins/buttons",
+        "base/grid",
+        "base/general_base";
+//General Elements
+@import "elements/forms/buttons",
+        "elements/forms/multiple_options",
+        "elements/forms/inputs",
+        "elements/forms/textarea",
+        "elements/forms/labels",
+        "elements/forms/select",
+        "elements/forms/datepicker",
+        "elements/forms/helpers",
+        "elements/forms/autocomplete",
+        "elements/file_uploader",
+        "elements/hero",
+        "elements/titles",
+        "elements/alerts",
+        "elements/flash",
+        "elements/tables",
+        "elements/icons",
+        "elements/cards",
+        "elements/comment";
+//  Icons
+@import "icons/icons";
+//General Components
+@import "components/header",
+        "components/helpers",
+        "components/footer",
+        "components/panels",
+        "components/tabs",
+        "components/modal",
+        "components/tooltips",
+        "components/pagination",
+        "components/filters",
+        "components/progress_bar",
+        "components/progress_bar_simple",
+        "components/dropdowns",
+        "components/summary",
+        "components/bullet_nav",
+        "components/expectations_status",
+        "components/popups",
+        "components/breadcrumbs";
+       
+// Library
+@import "lib/datepicker",
+        "lib/animations",
+        "lib/general_animations";
+        
+// Custom
+@import "custom/extras",
+        "custom/tax-forms",
+        "custom/calculations",
+        "custom/oauth",
+        "custom/bonsai",
+        "custom/graphics",
+        "custom/ongoing_cards",
+        "custom/date_picker",
+        "custom/progress_bar_animations",
+        "custom/page_transitions";
