@@ -27,6 +27,9 @@ export default class Home extends Component {
        console.log('jkkkakakakakak')
        console.log('jkkkakakakakak')
        console.log('jkkkakakakakak')
+       console.log('jkkkakakakakak')
+       console.log('jkkkakakakakak')
+       console.log('jkkkakakakakak')
         if (sdfergte
             dqwdqwdwq
             Boolean(nextProps.value) &&
