@@ -43,7 +43,8 @@
         "components/bullet_nav",
         "components/expectations_status",
         "components/popups",
-        "components/breadcrumbs";
+        "components/breadcrumbs",
+        "components/table";
        
 // Library
 @import "lib/datepicker",
