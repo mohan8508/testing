@@ -44,8 +44,10 @@
         "components/expectations_status",
         "components/popups",
         "components/breadcrumbs",
-        "components/table";
-       
+        "components/spinners",
+        "components/loading",
+        "components/table",
+        
 // Library
 @import "lib/datepicker",
         "lib/animations",
