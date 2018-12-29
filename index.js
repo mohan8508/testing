@@ -24,6 +24,10 @@ export default class Home extends Component {
         super(props);
     }
     componentWillReceiveProps(nextProps) {
+        diefhinwirf
+        wefwejkfwejkfn'
+        wefhweifhwefjk
+        wejkwerjwejbw
         const { value } = this.dropdownAttrsnsnsssbsbsbsb
       ssss
         if (sdfergte
