@@ -45,9 +45,7 @@
         "components/popups",
         "components/breadcrumbs",
         "components/spinners",
-        "components/loading",
-        "components/table",
-        
+        "components/loading";
 // Library
 @import "lib/datepicker",
         "lib/animations",
